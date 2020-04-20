@@ -634,7 +634,11 @@ h2 ~ p {
   }
   .header-nav li {
     display: block;
-    margin-top: 1em;
+    margin: 1em 0 0;
+    padding: 0;
+  }
+  .header-nav li ~ li {
+    border: 0;
   }
   .header-nav li:last-child {
     margin-bottom: 1em;
